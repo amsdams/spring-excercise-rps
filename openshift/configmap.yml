@@ -1,0 +1,14 @@
+kind: ConfigMap
+apiVersion: v1
+metadata:
+  name: application
+  namespace: a-project
+  selfLink: /api/v1/namespaces/a-project/configmaps/application
+  uid: 3918a5c2-12ab-11ea-b4ee-06f8086ebf8c
+  resourceVersion: '91183953'
+  creationTimestamp: '2019-11-29T13:21:59Z'
+data:
+  application.properties: |-
+    spring.thymeleaf.mode=mode
+    spring.thymeleaf.cache=false
+    spring.devtools.livereload.enabled=true
